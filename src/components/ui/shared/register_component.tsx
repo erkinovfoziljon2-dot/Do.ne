@@ -1,10 +1,12 @@
-import React from 'react'
 import Registercopmonent from './register'
+import Header from './header'
+
 
 function Register() {
-
   return (
-    <div className="grid grid-cols-2  w-screen m-0">
+    <>
+     <Header /><div className='flex items-center justify-center'></div>
+    <div className="grid grid-cols-2 gap-20     w-screen  ">
 
       <div className=" bg-[#a539ff] text-white p-16 flex w-full h-full flex-col justify-items-start">
 
@@ -63,6 +65,7 @@ function Register() {
       <Registercopmonent />
 
     </div>
+    </>
 
   )
 }
